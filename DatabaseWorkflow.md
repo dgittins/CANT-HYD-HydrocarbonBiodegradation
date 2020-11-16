@@ -10,11 +10,11 @@ cat *.faa > All_hydrocarbon_reference_sequences.faa
 
 2. Assign reference sequences to clusters of probable functional homology (i.e. homologous groups)
 
-   a. Create a [BLAST](https://www.ncbi.nlm.nih.gov/books/NBK52640/) database from reference sequence files
+    a. Create a [BLAST](https://www.ncbi.nlm.nih.gov/books/NBK52640/) database from reference sequence files
 ```shell
 makeblastdb -in All_hydrocarbon_reference_sequences.faa -dbtype prot -out Hydrocarbon_reference_sequences.db
 ```
-   b. BLAST reference sequences against the BLAST database
+    b. BLAST reference sequences against the BLAST database
 ```shell
 blastp -db Hydrocarbon_reference_sequences.db -query All_hydrocarbon_reference_sequences.faa -outfmt 6 -evalue 1e-4 -num_threads 40 -out Self_blast_hydrocarbon_references.txt
 ```
