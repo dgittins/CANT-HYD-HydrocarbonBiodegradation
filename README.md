@@ -4,7 +4,7 @@ The **C**algary approach to **AN**noTating **HYD**rocarbon degrading enzymes is 
 
 ## Implementation
 
-1. Download [CANT-HYD.hmm](https://github.com/dgittins/HydrocarbonBiodegradation/blob/main/CANT-HYD.hmm) and [HMM confidence score.csv](https://github.com/dgittins/HydrocarbonBiodegradation/blob/main/HMM%20confidence%20score.csv) files from this GitHub repository
+1. Download [CANT_HYD.hmm](https://github.com/dgittins/HydrocarbonBiodegradation/blob/main/CANT_HYD.hmm), [HMM_confidence_score.csv](https://github.com/dgittins/HydrocarbonBiodegradation/blob/main/HMM_confidence_score.csv), and [parse_hmmsearch_output.py](https://github.com/dgittins/HydrocarbonBiodegradation/blob/main/parse_hmmsearch_output.py) files from this GitHub repository
 
 2. Annotate protein-coding gene predictions from microbial whole genomes and metagenome-assembled genomes using CANT-HYD HMMs implemented in [HMMER](http://hmmer.org/)
 
@@ -12,4 +12,8 @@ The **C**algary approach to **AN**noTating **HYD**rocarbon degrading enzymes is 
 hmmsearch --tblout hmmsearch_metagenome.tblout CANT-HYD.hmm metagenome_proteins.faa > hmmsearch_metagenome.out
 ```
 
-3. Filter output to 
+3. Filter HMM search ouput to sequence homologs above the confidence threshold
+
+```bash
+python parse_hmm_output.py HMM_confidence_score.csv hmmsearch_metagenome.tblout hmmsearch_metagenome.parse.txt
+```
