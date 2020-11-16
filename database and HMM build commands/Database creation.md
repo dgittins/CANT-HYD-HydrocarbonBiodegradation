@@ -1,4 +1,4 @@
-# **Hydrocarbon biodegradation database commands**
+# **CANT-HYD database commands**
 
 ## Reference sequence clustering
 
