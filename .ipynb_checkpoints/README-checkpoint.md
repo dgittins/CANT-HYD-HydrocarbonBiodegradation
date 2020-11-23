@@ -4,7 +4,7 @@ The **C**algary approach to **AN**no**T**ating **HYD**rocarbon degrading enzymes
 
 ## Implementation
 
-1. Download [CANT_HYD.hmm](https://github.com/dgittins/HydrocarbonBiodegradation/blob/main/CANT_HYD.hmm), [HMM_confidence_score.csv](https://github.com/dgittins/HydrocarbonBiodegradation/blob/main/HMM_confidence_score.csv), and [parse_hmmsearch_output.py](https://github.com/dgittins/HydrocarbonBiodegradation/blob/main/parse_hmmsearch_output.py) files from this GitHub repository
+1. Download [CANT_HYD.hmm](https://github.com/dgittins/CANT-HYD-HydrocarbonBiodegradation/blob/main/downloads/CANT_HYD.hmm), [HMM_confidence_score.csv](https://github.com/dgittins/CANT-HYD-HydrocarbonBiodegradation/blob/main/downloads/HMM_confidence_score.csv), and [parse_hmmsearch_output.py](https://github.com/dgittins/CANT-HYD-HydrocarbonBiodegradation/blob/main/downloads/parse_hmmsearch_output.py) files from this GitHub repository
 
 2. Annotate protein-coding gene predictions from microbial whole genomes and metagenome-assembled genomes using CANT-HYD HMMs implemented in [HMMER](http://hmmer.org/)
 
