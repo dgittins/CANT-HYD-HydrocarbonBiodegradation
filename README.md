@@ -22,7 +22,6 @@ python parse_hmm_output.py HMM_confidence_score.csv hmmsearch_metagenome.tblout 
 
 Varada Khot<sup>2</sup>, Jackie Zorz<sup>2</sup>, Daniel Gittins<sup>1</sup>, Anirban Chakraborty<sup>1</sup>, Emma Bell<sup>1</sup>, Maria A. Bautista<sup>1</sup>, Alexandre Paquette<sup>2</sup>, Alyse Hawley<sup>2</sup>, Breda Novotnik<sup>2</sup>, Casey Hubert<sup>1</sup>, Marc Strous<sup>2</sup>, Srijak Bhatnagar<sup>1</sup>
 
-<sup>1</sup>Department of Biological Sciences, University of Calgary, Calgary 
-Alberta
+<sup>1</sup>Department of Biological Sciences, University of Calgary, Canada
 
-<sup>2</sup>Department of Geoscience, University of Calgary, Calgary Alberta
+<sup>2</sup>Department of Geoscience, University of Calgary, Canada
