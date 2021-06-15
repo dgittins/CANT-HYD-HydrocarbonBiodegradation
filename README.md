@@ -12,11 +12,12 @@ The **C**algary approach to **AN**no**T**ating **HYD**rocarbon degrading enzymes
 hmmsearch --tblout hmmsearch_metagenome.tblout CANT-HYD.hmm metagenome_proteins.faa > hmmsearch_metagenome.out
 ```
 
-3. Filter HMM search ouput to sequence homologs above the confidence threshold
+Options:
 
-```bash
-python parse_hmm_output.py HMM_confidence_score.csv hmmsearch_metagenome.tblout hmmsearch_metagenome.parse.txt
-```
+a. ```bash --cut_tc1``` for trusted cutoff
+b. ```bash --cut_nc2``` for noise cutoff
+c. no option for exploring genes below the noise cutoff
+
 
 ## Contributors
 
