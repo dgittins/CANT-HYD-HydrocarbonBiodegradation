@@ -14,9 +14,11 @@ hmmsearch --tblout hmmsearch_metagenome.tblout CANT-HYD.hmm metagenome_proteins.
 
 Options:
 
-a. ```bash --cut_tc1``` for trusted cutoff
-b. ```bash --cut_nc2``` for noise cutoff
-c. no option for exploring genes below the noise cutoff
+    a. ```bash --cut_tc1``` for trusted cutoff
+
+    b. ```bash --cut_nc2``` for noise cutoff
+
+    c. no option for exploring genes below the noise cutoff
 
 
 ## Contributors
