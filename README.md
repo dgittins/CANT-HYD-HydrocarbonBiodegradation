@@ -12,13 +12,13 @@ The **C**algary approach to **AN**no**T**ating **HYD**rocarbon degrading enzymes
 hmmsearch --tblout hmmsearch_metagenome.tblout CANT-HYD.hmm metagenome_proteins.faa > hmmsearch_metagenome.out
 ```
 
-Options:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Options:
 
-    a. ```bash --cut_tc1``` for trusted cutoff
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. ```--cut_tc1``` for trusted cutoff
 
-    b. ```bash --cut_nc2``` for noise cutoff
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. ```--cut_nc2``` for noise cutoff
 
-    c. no option for exploring genes below the noise cutoff
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. no option, for exploring genes below the noise cutoff
 
 
 ## Contributors
