@@ -1,5 +1,6 @@
 HMMER3/f [3.2.1 | June 2018]
 NAME  non_NdoB_type
+DESC  similar to benzene/toluene/naphtalene dioxygenase subunit alpha
 LENG  400
 ALPH  amino
 RF    no
