@@ -23,4 +23,4 @@ hmmsearch --tblout hmmsearch_metagenome.tblout CANT-HYD.hmm metagenome_proteins.
 
 ## Article
 
-Khot V, Zorz J, Gittins DA, Chakraborty A, Bell E, Bautista MA, Paquette AJ, Hawley AK, Novotnik B, Hubert CRJ, Strous M and Bhatnagar S (2022) CANT-HYD: A Curated Database of Phylogeny-Derived Hidden Markov Models for Annotation of Marker Genes Involved in Hydrocarbon Degradation. <em>Front. Microbiol.</em> 12:764058. doi: [10.3389/fmicb.2021.764058](https://www.frontiersin.org/articles/10.3389/fmicb.2021.764058/full)
+Khot V, Zorz J, Gittins DA, Chakraborty A, Bell E, Bautista MA, Paquette AJ, Hawley AK, Novotnik B, Hubert CRJ, Strous M and Bhatnagar S (2022) **CANT-HYD: A Curated Database of Phylogeny-Derived Hidden Markov Models for Annotation of Marker Genes Involved in Hydrocarbon Degradation.** *Front. Microbiol.* 12:764058. doi: [10.3389/fmicb.2021.764058](https://www.frontiersin.org/articles/10.3389/fmicb.2021.764058/full)
