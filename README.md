@@ -21,9 +21,9 @@ hmmsearch --tblout hmmsearch_metagenome.tblout CANT-HYD.hmm metagenome_proteins.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. no option, for exploring genes below the noise cutoff
 
 
-## Contributors
+## Article
 
-Varada Khot<sup>2</sup>, Jackie Zorz<sup>2</sup>, Daniel Gittins<sup>1</sup>, Anirban Chakraborty<sup>1</sup>, Emma Bell<sup>1</sup>, Maria A. Bautista<sup>1</sup>, Alexandre Paquette<sup>2</sup>, Alyse Hawley<sup>2</sup>, Breda Novotnik<sup>2</sup>, Casey Hubert<sup>1</sup>, Marc Strous<sup>2</sup>, Srijak Bhatnagar<sup>1</sup>
+Varada Khot<sup>2</sup>, Jackie Zorz<sup>2</sup>, Daniel Gittins<sup>1</sup>, Anirban Chakraborty<sup>1</sup>, Emma Bell<sup>1</sup>, Maria A. Bautista<sup>1</sup>, Alexandre Paquette<sup>2</sup>, Alyse Hawley<sup>2</sup>, Breda Novotnik<sup>2</sup>, Casey Hubert<sup>1</sup>, Marc Strous<sup>2</sup>, Srijak Bhatnagar<sup>1</sup> CANT-HYD: a curated database of phylogeny-derived hidden Markov models for annotation of marker genes involved in hydrocarbon degradation. Frontiers in microbiology 12 (2022). [https://doi.org/10.3389/fmicb.2021.764058](https://doi.org/10.3389/fmicb.2021.764058)
 
 <sup>1</sup>Department of Biological Sciences, University of Calgary, Canada
 
