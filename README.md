@@ -1,4 +1,4 @@
-# CANT-HYD: A curated database of phylogeny-derived hidden markov models for annotation of marker genes involved in hydrocarbon degradation
+# CANT-HYD: a curated database of phylogeny-derived hidden markov models for annotation of marker genes involved in hydrocarbon degradation
 
 The **C**algary approach to **AN**no**T**ating **HYD**rocarbon degrading enzymes is a database used for robust and accurate annotation of genes associated with aerobic and anaerobic hydrocarbon degradation.
 
